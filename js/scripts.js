@@ -20,8 +20,11 @@ $(document).ready(function() {
   });
 
   $(".clickable").click(function() {
-    
     $(".closed").toggle();
+  });
+
+  $("h3").hover(function() {
+    ("h3").bold();
   });
 
 });

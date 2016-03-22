@@ -6,10 +6,13 @@ h1, h2 {
 
 h2 {
   font-family: cursive;
+  font-weight: bold;
 }
 p {
   font-family: cursive;
   text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 #walwal {
@@ -49,12 +52,14 @@ img.closed {
   position: absolute;
   display: block;
   padding-left: 285px;
+  border-radius: 100%;
 }
 
 img.open {
   position: absolute;
   display: block;
   padding-left: 280px;
+  border-radius: 100%
 }
 
 .description li {
@@ -68,4 +73,9 @@ img.open {
 
 h3, h4 {
   text-align: center;
+}
+
+h3:hover {
+  font-weight: bolder;
+  color: red;
 }
