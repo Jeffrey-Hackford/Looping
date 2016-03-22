@@ -37,9 +37,9 @@ p {
   background: linear-gradient(white, tan);
 }
 
-body {
+/*body {
   background: radial-gradient(white, 	#6EEBCC, tan);
-}
+}*/
 
 .treasure li:hover {
   font-weight: bolder;
@@ -78,4 +78,8 @@ h3, h4 {
 h3:hover {
   font-weight: bolder;
   color: red;
+}
+
+.blue-background {
+  background-color: #4da6ff;
 }

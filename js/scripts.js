@@ -23,8 +23,9 @@ $(document).ready(function() {
     $(".closed").toggle();
   });
 
-  $("h3").hover(function() {
-    ("h3").bold();
+  $("button#blue").click(function() {
+    $("body").removeClass();
+    $("body").addClass("blue-background");
   });
 
 });
