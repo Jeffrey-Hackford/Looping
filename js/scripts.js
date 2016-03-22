@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
 
   $(".clickable").click(function() {
-    $(".open").show();
+    
     $(".closed").toggle();
   });
 

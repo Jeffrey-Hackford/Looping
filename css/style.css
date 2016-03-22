@@ -34,6 +34,10 @@ p {
   background: linear-gradient(white, tan);
 }
 
+body {
+  background: radial-gradient(white, 	#6EEBCC, tan);
+}
+
 .treasure li:hover {
   font-weight: bolder;
   color: blue;
@@ -44,8 +48,6 @@ p {
 img.closed {
   position: absolute;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 285px;
 }
 
