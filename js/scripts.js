@@ -1,26 +1,6 @@
 $(document).ready(function() {
-  $("h1").dblclick(function() {
-    alert("Header");
-  });
-
-  $("h2").click(function() {
-    alert("Sub Heading");
-  });
-
-  $("img").click(function() {
-    alert("Image");
-  });
-
-  $("p").click(function() {
-    alert("paragraph");
-  });
-
   $("h1").hover(function() {
     $("#walwal").fadeIn();
-  });
-
-  $(".clickable").click(function() {
-    $(".closed").toggle();
   });
 
   $("button#blue").click(function() {
@@ -28,4 +8,11 @@ $(document).ready(function() {
     $("body").addClass("blue-background");
   });
 
+  var array = ["h1", "h2", "p", "img"];
+
+    array.forEach(function(loop) {
+    $(loop).click(function() {
+      alert(loop);
+    });
+  });
 });
